@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/tone@14.7.77/build/Tone.min.js"></script>
+    <title>Genesis</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="wrapper">
+            <div class="board">
+                <div class="genesis">
+                    <div class="pad unselected" id="blue"></div>
+                    <div class="pad unselected" id="yellow"></div>
+                    <div class="pad unselected" id="red"></div>
+                    <div class="pad unselected" id="green"></div>
+                </div>
+                <div class="center-panel">
+                    <div class="level-status">
+                        <p class="info-status"><span id="level">Nível</span></p>
+                    </div>
+                    <div class="score-status">
+                        <p class="info-status"><span id="score">Pontos</span></p>
+                    </div>
+                </div>
+            </div>
+            <div id="top-message-container"><span id="message"></span></div>
+        </div>
+
+        <div class="button-container">
+            <button id="start">Iniciar</button>
+        </div>
+
+        <div>
+            <div style="display: flex;">
+                <a target="_blank" rel="noreferrer" title="Iberê' s linkedin page"
+                    href="https://www.linkedin.com/in/iber%C3%AA-abondanza-kuhlmann-0691b32a/">
+                    <img class="icon" src="/icons/linkedin.png" alt="Iberê' s linkedin page">
+                </a>
+
+                <a target="_blank" rel="noreferrer" title="Iberê' s github page" href="https://github.com/ibere82">
+                    <img class="icon" src="/icons/github.png" alt="Iberê' s github page">
+                </a>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;
+            <a target="_blank" rel="noreferrer" href="https://github.com/ibere82">Iberê Abondanza Kuhlmann</a>&nbsp;
+            - Genesis with Vanilla-JS</p>
+            <p>see too             
+            <a target="_blank" rel="noreferrer" href="https://github.com/ibere82/genesis-react">Genesis ReactJS version</a>
+        </p>
+        <p>Developed based on
+            <a target="_blank" rel="noreferrer" href="https://github.com/SpruceGabriela/genesis-dio">
+                this Gabriela Pinheiro's Repository</a> as a task for the Eduzz Fullstack Developer Bootcamp from
+            <a target="_blank" rel="noreferrer" href="https://digitalinnovation.one/">DIO - Digital Inovation One</a>
+        </p>
+
+        <p>Icons made by&nbsp;
+            <a target='_blank' href="https://www.freepik.com" title="Freepik">Freepik</a> from&nbsp;
+            <a target='_blank' href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+
+    </footer>
+    <script defer type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
